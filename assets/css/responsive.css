@@ -1,0 +1,388 @@
+@media all and (max-width:1200px){
+    .header-top-area.sec-padd {
+        padding: 5rem 3rem 2rem 3rem;
+    }
+    .banner-area {
+        padding: 0rem 3rem;
+    }
+    h1{
+        font-size: 4.9rem;
+    }
+    .banner-heading{
+        flex-basis: 60%;
+    }
+    .banner-img{
+        flex-basis: 40%;
+    }
+    .app-content {
+        box-sizing: border-box;
+        padding-left: 5rem;
+    }
+    .app-img img {
+        margin: 0;
+        width: 100%;
+    }
+    .app-future-area.sec-padd {
+        padding: 10rem 0rem 5rem 0rem;
+    }
+    .smart {
+        max-width: 95rem;
+        width: 100%;
+        margin: auto;
+    }
+    .service-area.sec-padd {
+        padding: 5rem 3rem;
+    }
+    .design {
+        grid-gap: 4rem;
+    }
+    .design-img img {
+        margin: 0rem 0rem 0rem 0rem;
+        width: 100%;
+    }
+    section.design-area.sec-padd {
+        margin-bottom: 5rem;
+        padding: 5rem 3rem;
+    }
+    .planning-area .container-child {
+        width: 97%;
+    }
+    .plan-heading {
+        max-width: 73%;
+    }
+    .plan-img img {
+        width: 100%;
+    }
+    .elementor-area.sec-padd {
+        padding: 5rem 3rem;
+    }
+    .elementor-image{
+        flex-basis: 50%;
+    }
+    .elementor-image img {
+        width: 100%;
+        margin: 0;
+    }
+    section.download-area.sec-padd {
+        padding: 7rem 3rem 6.3rem 3rem;
+    }
+
+    .download-area.sec-padd::after {
+        width: 43%;
+
+    }
+
+}
+@media all and (max-width:991px){
+    .slide-button{
+        display: block;
+    }
+    .hide {
+        display: block;
+    }
+
+    .menu-bar{
+        visibility: hidden;
+        position: fixed;
+        transition: .3s;
+        height: 0;
+        top: 0;
+        left: 0;
+        background: #242F51;
+        width: 100%;       
+        flex-direction: column;     
+        z-index: 9999;
+        justify-content: center;
+        opacity: 0;
+    }
+    .menu-bar.show {
+       height: 100vh;
+        visibility: visible;
+        opacity: 1;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu ul li a {
+        color: white;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+    .menu ul li:last-child a {
+        padding-bottom: 5rem;
+    }
+    .smart {
+        flex-direction: column;
+        padding: 0rem 3rem;
+        box-sizing: border-box;
+    }
+    .smart-heading h3::after {
+        bottom: 1.8rem !important;
+        top: inherit;
+        left: 0;
+        width: 41%;
+        height: 0.1rem;
+    }
+    .smart-heading h3{
+        padding-bottom: 4rem;
+    }
+    .design {
+        flex-direction: column;
+    }
+    .design-content {
+        order: -1;
+    }
+    .design-content p {
+	padding: 3rem 0;
+	padding-top: 1rem;
+}
+.plan-heading {
+	max-width: 90%;
+}
+.elementor{
+    flex-wrap: wrap;
+}
+.elementor-image {
+	flex-basis: 100%;
+}
+.main-slider-area{
+    flex-basis: 100%;
+}
+.client-heading h3:after{
+    display: none;
+}
+.smart-heading.same.client-heading h3 {
+	padding: 0;
+	padding-top: 4rem;
+}
+.container-asked {
+    width: 92%;
+}
+.download-area.sec-padd::after {
+	width: 42%;
+}
+.download-content {
+	padding-right: 1.5rem;
+}
+.header-btn a:hover{
+   color: #242F51;
+}
+.header-btn .d-btn::after {
+    background: #fff;
+}
+
+}
+
+
+@media all and (max-width:767px){
+    .banner-heading {
+        padding: 8rem 0rem 5rem 0rem;
+    }
+    .banner-content{
+        flex-direction: column;
+    }
+    .hide {
+        right: 15rem;
+    }
+    .app-future {
+        flex-direction: column;
+    }
+    .app-content {
+        order: -1;
+        padding-bottom: 4rem;
+        padding: 3rem 3rem 4rem 3rem;
+    }
+    .service {
+        display: flex;
+        grid-gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .typography-area .typography {
+        width: 100%;
+    }
+    .typography:last-child {
+        width: 100%;
+    }
+    .service .typography {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 46%;
+    }
+    .service .typography img {
+        padding-bottom: 0;
+    }
+    .choose-app-area.sec-padd {
+        padding: 5rem 3rem;
+    }
+    .choose-icon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .planning {
+        flex-direction: column;
+    }
+    .plan-img {
+        order: -1;
+    }
+    .plan-heading {
+        max-width: 100%;
+        text-align: center;
+    }
+    .plan-heading p {
+        padding: 1rem 0rem 6rem 0rem;
+    }
+    .plan-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .feature-area .container-child {
+        width: 94%;
+    }
+    .feature-heading h2 {
+        width: 100%;
+    }
+    .feature-heading p {
+        width: 100%;
+        padding: 1rem 0rem 7rem 0rem;
+    }
+    .download-area.sec-padd::after {
+        display: none;
+    }
+    .download-content {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .download-content p {
+        text-align: center;
+    }
+    .download-content img {
+        margin: auto;
+    }
+}
+@media all and (max-width:575px){
+    .hide {
+        right: 10rem;
+    }
+    .hero-area p {
+        padding: 5rem 0rem 4rem 0rem;
+    }
+    .typography {
+        width: 100%;
+    }
+    .typography:last-child{
+        width: 100%;
+    }
+    .service .typography {
+        width: 100%;
+    }
+    .trail-area {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 93%;
+    }
+    .footer-area.sec-padd {
+        padding: 10rem 3rem;
+    }
+    .footer-menu ul {
+        flex-wrap: wrap;
+    }
+    .footer-area img {
+        padding-bottom: 1rem;
+    }
+    .footer-menu ul li a {
+        padding: 2rem 3rem 0rem 0rem;
+    }
+
+
+}
+@media all and (max-width:480px){
+    .check-mark {
+        width: 100%;
+    }
+    .check-mark {
+        align-items: center;
+    }
+    .banner-heading .check-mark p {
+        font-size: 1.7rem;
+    }
+    h1 {
+        font-size: 3rem;
+        line-height: 4.5rem;
+        padding-top: 1rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+        line-height: 3.9rem;
+    }
+    .banner-button {
+        flex-direction: column;  
+        padding-top: 2rem;
+    }
+    .banner-button a:last-child {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+    .hero-slider {
+        margin: 0rem 5rem;
+    }
+
+    .app-future-area.sec-padd {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+    .typography-area {
+        padding-top: 4rem;
+    }
+    .typography {
+        flex-direction: column;
+        text-align: center;
+    }
+    .app-content h2 {
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    .app-content p {
+        text-align: center;
+        padding: 0rem 6rem;
+    }
+    .typography-area {
+        width: 100%;
+    }
+    .typo-content {
+        padding-left: 0;
+    }
+    .smart-heading h3, .asked h3 {
+        font-size: 2.9rem;
+    }
+    .service .typography img {
+        padding-bottom: 0rem;
+        margin: 0 auto;
+    }
+    .design-content p {
+        padding-top: 1rem;
+    }
+    .choose-icon {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .choose-heading p {
+        padding-top: 0;
+    }
+    .plan-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .plan-img img {
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+    .plan-content-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main-slider-area .swiper-button-prev, .main-slider-area .swiper-button-next {
+        display: none;
+    }
+    .acc-trigger i {
+        right: -10px;
+    }
+
+}
